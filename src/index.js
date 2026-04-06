@@ -18,7 +18,7 @@ servidor.get('/api', (req, res) => {
 servidor.use((req, res) => { 
   res.status(404).json({ erro: "Página não encontrada" }); //Retorna um erro 404 para rotas não encontradas
 });
-``
+
 
 //Iniciando o servidor
 const PORTA = 4000;
